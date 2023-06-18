@@ -16,4 +16,16 @@ class SimpleWindowsForm : Form
         // В результате на экране дисплея откроется форма
         Application.Run(new SimpleWindowsForm());
     }
+
+    private void InitializeComponent()
+    {
+            this.SuspendLayout();
+            // 
+            // SimpleWindowsForm
+            // 
+            this.ClientSize = new System.Drawing.Size(886, 261);
+            this.Name = "SimpleWindowsForm";
+            this.ResumeLayout(false);
+
+    }
 }
